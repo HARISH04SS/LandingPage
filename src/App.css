@@ -1,38 +1,204 @@
-.App {
+.topdiv{
+  margin: 20px;
+}
+.topbut{
+  margin-left: 84%;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  width: 120px;
+  height: 70px;
+  border-radius: 10%;
+  text-decoration:solid;
+  height: 40px;
+}
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer-links {
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.footer-links a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-links span {
+  color: #6c757d;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.footer-social a {
+  margin: 0 10px;
+}
+
+.footer-social img {
+  width: 24px;
+  height: 24px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 46px; 
+  font-weight: bold;
+  text-align: center;
+}
+.mb-3{
+  color: #0d6efd;
+}
+.my-1{
+  background-color: #f9f9f9;
+  width: 100%;
+}
+.over-text {
+  position: absolute;
+  left: 50%; 
+  top:420%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 46px; 
+  font-weight: bold;
+  text-align: center;
+}
+.e-card-image {
+  background: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRd1zYuZ3jJRpSYIeYjb2AeRr9VpOF9n24X1IrGicZMnp_wHOmo');
+  height: 160px;
+  ;
+}
+
+.e-card {
+  width: 200px;
+  margin: auto;
+}
+
+.testimonial-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial {
+  max-width: 300px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial h3 {
+  margin: 20px 0 10px;
+}
+
+.testimonial p {
+  font-style: italic;
+  color: #555;
+}
+
+.text-image-section {
+  padding: 50px;
+  background-color: white;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.section .text {
+  flex: 1;
+  padding: 20px;
+}
+
+.section .image {
+  flex: 1;
+  text-align: center;
+}
+
+.section .image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .section .image {
+    margin-bottom: 20px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.buteve{
+  background-color:#0d6efd;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  width: 170px;
+  height: 70px;
+  margin: 20px;
+
+}
+
+.iptext{
+  font-size: 20px;
+  width: 400px;
+  height: 70px;
+  border-radius: 10px;
+  text-align:left;
+  border: none;
+}
+
+.small-error {
+  font-size: 0.8em; 
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.cardcls{
+  width: 1700px;
+  display:flexbox;
+  background-color:#f9f9f9 ;
+  align-items: center;
+  height: 400px;
+  align-content: center;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-group2{
+  margin-top: 10%;
 }
+
+
+
